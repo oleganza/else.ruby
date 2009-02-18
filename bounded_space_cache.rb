@@ -1,6 +1,5 @@
-# Written by Mauricio Fernandez
+# Based on original by Mauricio Fernandez
 # http://eigenclass.org/hiki/bounded-space-memoization
-#
 class BoundedSpaceCache
   attr_accessor :size, :counts, :keys, :vals
   def initialize(size)
